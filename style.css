@@ -53,8 +53,9 @@
   
     
 .calendario{
-  width: 70%;
-  margin-left: 15%;
+  width: 78%;
+   display: block;
+    margin: 0 auto;
 }
       .cuenta-regresiva {
         display: flex;
@@ -217,8 +218,9 @@
   }
   .final{
     width: 38%;
-    margin-left: 31%;
-    margin-top: -5%;
+      display: block;
+    margin: 0 auto;
+    margin-top: -2%;
     
   }
   .regalo{
@@ -298,7 +300,7 @@ margin-left: 5% ;
   text-decoration: none;
 }
 .mauri{
-  width: 25%;
+  width: 27%;
 margin-left: 5% ;
 }
 .hojas{
@@ -351,7 +353,7 @@ margin-left:-15% ;
   text-align: center;
     font-size: 25px;
     color: #080808;
-    margin-top: 15%; 
+    margin-top: 20%; 
     font-family: "Arsenal SC", sans-serif;
     font-weight: 400;
  
@@ -413,7 +415,44 @@ margin-left:-15% ;
 .a{
   text-decoration: none;
 }
+ /* Contenedor redondo */
+  .music-player {
+    width: 50px;
+  height: 50px;
+  background: #8c312fa0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+  animation: float 2s ease-in-out infinite; /* movimiento arriba-abajo */
+  /* Fijar arriba */
+  position: fixed;
+  top: 20px;   /* distancia desde arriba */
+  right: 20px; /* lo mantiene a la derecha */
+  z-index: 9999; /* asegura que quede por encima de todo */
+  
+  }
 
+
+  /* Botón play */
+  .play-btn {
+    font-size: 15px;
+    color: white;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+   /* Animación de flotación */
+  @keyframes float {
+    0%   { transform: translateY(0px); }
+    50%  { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
+  
 .click2{
  padding: 2px 10px;
       font-family: "Arsenal SC", sans-serif;

@@ -71,7 +71,7 @@ function diaEventoAhora () {
       icon: 'success',
       html:
         'INGRESÁ' +
-        '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.5505628405435!2d-59.261015699999994!3d-38.010942400000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9591c951a57ca687%3A0xa988646de4167f4f!2sLa%20Roca%20Disco!5e0!3m2!1ses-419!2sar!4v1754000815553!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
+        '<iframe src="https://www.google.com/maps/embed?pb=!4v1781215172530!6m8!1m7!1shgtbsJrGzHfvMswTWhcZLg!2m2!1d-33.90252231640976!2d-60.57659476881813!3f6.84!4f-12.909999999999997!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
         
         
     })

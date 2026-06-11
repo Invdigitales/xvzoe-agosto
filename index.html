@@ -35,7 +35,7 @@
 <div>
 
 
-  <audio class="audio" src="./" controls>
+  <audio class="audio" src="./Harry Styles - As It Was - LatinHype (320k).mp3" controls>
   </audio>
   
 
@@ -47,7 +47,12 @@
   
   
  
+<audio id="audio" src="./Harry Styles - As It Was - LatinHype (320k).mp3"></audio>
 
+<div class="music-player" id="player">
+  <button class="play-btn" id="playBtn">PLAY</button>
+</div>
+   
 
  
 
@@ -290,6 +295,17 @@ A nombre de Zoe Nerea Bilan Laterza <br>
 
         <img class="final" src="./imagenes/zoita.png" alt="">
 
+
+
+<div class="box__copyright">
+  
+  
+  
+  <p>Sitio desarrollado por <b> <a
+        href=" https://www.instagram.com/invites/contact/?i=u1xzn8scfuha&utm_content=qbd7xox">
+        digit_invitaciones7</a></b> <br> TEL: +5493534298436</p> 
+  </div>        
+
   <script>
     window.addEventListener('load', () => {
         const body = document.querySelector('body');
@@ -299,7 +315,20 @@ A nombre de Zoe Nerea Bilan Laterza <br>
 
 
 
+<script>
+  const audio = document.getElementById("audio");
+  const playBtn = document.getElementById("playBtn");
 
+  playBtn.addEventListener("click", () => {
+    if (audio.paused) {
+      audio.play();
+      playBtn.textContent = "❚❚"; // pausa
+    } else {
+      audio.pause();
+      playBtn.textContent = "►"; // play
+    }
+  });
+</script>
 
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
